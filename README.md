@@ -14,6 +14,7 @@ https://github.com/tngtied/healthcare_data/assets/75424805/20e19980-399c-4058-80
 2. 프로그램 및 모듈 소스 코드
 
 	a) 사용한 라이브러리, 모듈
+
       js, vue3-chart-v2, npm, Vue.js
       python, seaborn, pandas
 
