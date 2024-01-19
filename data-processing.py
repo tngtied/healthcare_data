@@ -289,15 +289,6 @@ print(f'사람들은 보통 오전{total_time_med_dic[:11].index(maxval_11)}시,
 res_str = "{"
 for key in uid_dic:
   maxval = max(uid_time_med_dic[key])
-  # maxval_11 = max(uid_time_med_dic[key][:11])
-  # maxval_23 = max(uid_time_med_dic[key][11:])
-  # if (maxval_11<12 and maxval_23>=12):
-  #   res_str += f'\"id{key}\":[{uid_time_med_dic[key][:11].index(maxval_11)},{(11+uid_time_med_dic[key][11:].index(maxval_23))}],'
-  # el
-  # if (maxval_11>=12):
-  #   res_str += f'\"id{key}\":[{uid_time_med_dic[key].index(maxval_23)}],'
-  # elif (maxval_23<12):
-  #   res_str += f'\"id{key}\":[{uid_time_med_dic[key].index(maxval_11)}],'
   res_str += f'\"id{key}\":{uid_time_med_dic[key].index(maxval)},'
 res_str = res_str[:-1]
 res_str += "}"
